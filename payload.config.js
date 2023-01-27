@@ -10,7 +10,7 @@ import Photos from "./collections/Photos";
 import Locations from "./collections/Locations";
 import Brandings from "./collections/Brandings";
 export default buildConfig({
-  serverURL: "http://localhost:3000",
+  serverURL: "https://ggolstudio-cms.onrender.com",
   admin: {
     user: Users.slug,
   },
